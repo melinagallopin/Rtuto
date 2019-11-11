@@ -1,5 +1,6 @@
 ##
 # Gaëlle LELANDAIS <gaelle.lelandais@u-psud.fr>
+# This content is licensed under CC BY 4.0
 ##
 
 #---------------------------------------------------------------------------
@@ -28,7 +29,7 @@ print(4850/26)
 print(round(4850/26, 2))
 print(round(4850/26, 3))
 
-# autre fonctions R : ceiling(); floor(); etc.
+# autres fonctions R : ceiling(); floor(); etc.
 print(ceiling(4850/26))
 print(floor(4850/26))
 
@@ -66,23 +67,23 @@ dev.off()
 hist(rnorm(100, mean = 10, sd = 5))
 hist(rnorm(100, mean = 10, sd = 5), nclass = 50)
 
-vec <- rnorm(100, mean = 10, sd = 5) 
+vec = rnorm(100, mean = 10, sd = 5) 
 hist(vec, breaks = seq(floor(min(vec)), ceiling(max(vec)), by = 0.5))
 
 #---------------------------------------------------------------------------
-# Exercice 8
+# Exercice 7
 #---------------------------------------------------------------------------
 
 sample(1:100, size = 10)
 
 #---------------------------------------------------------------------------
-# Exercice 9
+# Exercice 8
 #---------------------------------------------------------------------------
 
 sample(c("pile", "face"), size = 100, rep = TRUE)
 
 #---------------------------------------------------------------------------
-# Exercice 10
+# Exercice 9
 #---------------------------------------------------------------------------
 
 sample(c("pile", "face"), size = 100, rep = TRUE, prob = c(0.3, 0.7))

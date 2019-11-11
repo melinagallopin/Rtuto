@@ -1,5 +1,6 @@
 ##
 # Gaëlle LELANDAIS <gaelle.lelandais@u-psud.fr>
+# This content is licensed under CC BY 4.0
 ##
 
 #---------------------------------------------------------------------------
